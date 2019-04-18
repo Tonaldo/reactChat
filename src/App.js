@@ -16,14 +16,11 @@ class App extends Component {
   state = {
     from: 'anonymous',
     content: '',
-    color: 'black',
-    showEmojis: false,
-    modalOpen: false
+    showEmojis: false
   };
   componentDidMount() {
     // Get username form prompt
     // when page loads
-    this.setState({ modalOpen: true })
     const from = window.prompt('username');
     const color = window.
     from && this.setState({ from });
@@ -109,7 +106,6 @@ class App extends Component {
         return (
           <div className="">
             <div className="container">
-            <Modal
               <h2>All-around good-feeling chat</h2>
               {allChats.map(message => (
                 <Chatbox key={message.id} message={message} />
