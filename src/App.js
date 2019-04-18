@@ -7,7 +7,8 @@ import { Picker } from 'emoji-mart'
 
 
 import Chatbox from './components/Chatbox';
-import ModalDialog from './components/ModalDialog';
+
+
 import 'emoji-mart/css/emoji-mart.css'
 import './App.css';
 
