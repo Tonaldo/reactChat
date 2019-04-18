@@ -1,0 +1,8 @@
+
+type Chat @model {
+  id: ID! @isUnique
+  from: String!
+  content: String!
+  createdAt: DateTime!
+}
+

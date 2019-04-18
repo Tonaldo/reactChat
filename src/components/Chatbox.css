@@ -1,0 +1,31 @@
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.date {
+	font-size: 12px;
+	font-style: italic;
+}
+
+span {
+	color: rgba(0, 0 , 0, 0.3);
+}
+
+p {
+	background-color: rgba(0, 0 , 0, 0.1);
+	border-radius: 18px;
+	padding: 5px;
+	height: 15px;
+	display: table;
+	min-width: 50px;
+	text-align: center;
+}
+
+.chat-box {
+  padding: 0 15px;
+}
