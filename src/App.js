@@ -23,7 +23,6 @@ class App extends Component {
     // Get username form prompt
     // when page loads
     const from = window.prompt('username');
-    const color = window.
     from && this.setState({ from });
     this._subscribeToNewChats();
   }
@@ -93,14 +92,6 @@ class App extends Component {
       });
   };
 
-  closeModal  = () => {
-    this.setState({modalOpen: false})
-  }
-
-  saveAndCloseModal = (name, color) => {
-    this.setState({from: name, color: color},() => 
-      this.setState({modalOpen: false}))
-  }
   render() {
     let openModal = () => this.setState({ modalOpen: true })
     const allChats = this.props.allChatsQuery.allChats || [];
