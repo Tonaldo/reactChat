@@ -22,7 +22,7 @@ class App extends Component {
   componentDidMount() {
     // Get username form prompt
     // when page loads
-    const from = window.prompt('username');
+    const from = window.prompt('Type your username for chat, please.');
     from && this.setState({ from });
     this._subscribeToNewChats();
   }
