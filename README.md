@@ -22,7 +22,3 @@
     ```
 
     Graphcool makes remote instance of your GraphQL instance and opens it up.
-
-## Live demo
-
-[Live demo (at Heroku)](https://chat.tonaldo.fi)
